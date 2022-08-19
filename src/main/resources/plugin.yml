@@ -1,0 +1,14 @@
+name: Spit
+version: '${project.version}'
+main: me.skovorodka232.spit.spit.Spit
+authors: [ skovorodka232 ]
+description: Просто плюнуть
+commands:
+  spit:
+    permission: spit.use
+    permission-message: §cНет прав
+    description: Харкнуть
+    usage: /spit
+permissions:
+  spit.use:
+    default: op
